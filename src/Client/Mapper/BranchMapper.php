@@ -2,7 +2,7 @@
 
 namespace Client\Mapper;
 
-use Client\Branch;
+use Client\Dto\Branch;
 
 class BranchMapper
 {

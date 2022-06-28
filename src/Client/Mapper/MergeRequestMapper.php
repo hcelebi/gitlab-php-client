@@ -2,7 +2,7 @@
 
 namespace Client\Mapper;
 
-use Client\MergeRequest;
+use Client\Dto\MergeRequest;
 
 class MergeRequestMapper
 {

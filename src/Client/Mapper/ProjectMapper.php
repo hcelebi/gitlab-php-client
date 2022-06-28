@@ -2,7 +2,7 @@
 
 namespace Client\Mapper;
 
-use Client\Project;
+use Client\Dto\Project;
 
 class ProjectMapper
 {

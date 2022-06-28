@@ -2,7 +2,7 @@
 
 namespace Client\Mapper;
 
-use Client\Tag;
+use Client\Dto\Tag;
 
 class TagMapper
 {

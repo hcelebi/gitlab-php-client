@@ -3,8 +3,8 @@
 namespace Client\Service\Factory;
 
 use Psr\Container\ContainerInterface;
-use Sdlc\DataSource\GitLab\Factory\GitLabClientFactory;
-use Sdlc\DataSource\GitLab\Service\TagService;
+use Client\Factory\GitLabClientFactory;
+use Client\Service\TagService;
 
 class TagServiceFactory
 {

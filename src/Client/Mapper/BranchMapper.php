@@ -10,6 +10,7 @@ class BranchMapper
     {
         $branch = new Branch();
         $branch->setBranchName($response->name);
+        $branch->setWebUrl($response->web_url);
         return $branch;
     }
 }

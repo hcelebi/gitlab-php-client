@@ -6,6 +6,24 @@ class Branch
 {
     /** @var string */
     private $branchName;
+    /** @var string */
+    private $webUrl;
+
+    /**
+     * @return string
+     */
+    public function getWebUrl(): string
+    {
+        return $this->webUrl;
+    }
+
+    /**
+     * @param string $webUrl
+     */
+    public function setWebUrl(string $webUrl): void
+    {
+        $this->webUrl = $webUrl;
+    }
 
     /**
      * @return string

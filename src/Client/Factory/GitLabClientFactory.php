@@ -13,7 +13,7 @@ class GitLabClientFactory
             'headers' => [
                 'Content-Type' => 'application/json'
             ],
-            'base_uri' => 'http://gitlaburi/api/v4/',
+            'base_uri' => 'https://gitlab.com/api/v4/',
             'curl' => [
                 CURLOPT_SSL_VERIFYHOST => false,
                 CURLOPT_SSL_VERIFYPEER => false,

@@ -8,8 +8,8 @@ use Slim\Container;
 
 class BranchServiceTest extends TestCase {
     public function testBranchService() {
-        $container = new Container();
 
+        $container = new Container();
         GitLabClientFactory::createService($container);
         BranchServiceFactory::createService($container);
 
